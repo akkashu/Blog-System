@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>Sample Blog</title>
+</head>
+<body>
+<form action="{% url 'blog:signup' %}" method="POST">
+    {{ form.as_p }}
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
